@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "product": "非遗项目版权到期巡检",
+  "source_context": "http://edu.people.com.cn/n1/2026/0924/c1006-40804947.html",
+  "actors": [
+    "版权管理员",
+    "教案作者",
+    "活动排期员"
+  ],
+  "states": [
+    "登记",
+    "引用",
+    "巡检",
+    "处置",
+    "续期"
+  ],
+  "invariants": [
+    "许可范围",
+    "到期巡检",
+    "引用图谱",
+    "批量替换"
+  ],
+  "sample_cases": [
+    {
+      "case_id": "09302-019-A",
+      "actor": "版权管理员",
+      "state": "登记"
+    },
+    {
+      "case_id": "09302-019-B",
+      "actor": "活动排期员",
+      "state": "引用"
+    }
+  ],
+  "tags": [
+    "license-monitoring",
+    "dependency-impact"
+  ]
+}
