@@ -18,7 +18,7 @@ class ContractTest(unittest.TestCase):
         self.assertGreaterEqual(result["actor_count"], 3)
         self.assertGreaterEqual(result["state_count"], 5)
         self.assertGreaterEqual(result["invariant_count"], 4)
-        self.assertEqual(result["case_count"], 2)
+        self.assertEqual(result["case_count"], 4)
 
 
 if __name__ == "__main__":
